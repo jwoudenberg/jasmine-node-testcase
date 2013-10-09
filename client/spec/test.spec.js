@@ -7,7 +7,7 @@
  * dead when trying to execute the second one.
  */
 (function () {
-    var Q = require('q');
+    var Q = window.Q;
 
     describe('A test', function () {
         it('Should succeed', function () {
